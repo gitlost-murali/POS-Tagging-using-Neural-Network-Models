@@ -46,7 +46,7 @@ def prepare_target(tags, pos_map):
 import pickle
 
 
-with open("D:/MyPS3/IIIT H/Chunking/Chunked/total_chunk_tel_data.pickle","rb") as fhnd:
+with open("total_data.pickle","rb") as fhnd:
 	total_data=pickle.load(fhnd)
 
 
@@ -117,7 +117,8 @@ rev_word_idx=dict((v,k) for (k,v) in word_to_idx.items())
 # In[7]:
 
 from gensim.models.keyedvectors import KeyedVectors
-vectors_file='D:\MyPS3\IIIT H\Pre-Training LM Keras\Large Telugu corpora by ganesh sir\corpus.v3.bin'
+vectors_file='corpus.v3.bin'
+## You can use fastText or any other word embeddings you like.
 word_vectors = KeyedVectors.load_word2vec_format(vectors_file, binary=True, unicode_errors='ignore')
 
 
