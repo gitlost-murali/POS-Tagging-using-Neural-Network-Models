@@ -5,7 +5,7 @@ Data in the pickle file is expected to have the following format:
 
 [(Sentence1,Tags_of_Sentence1),(Sentence2,Tags_of_Sentence2),(Sentence3,Tags_of_Sentence3)]
 
-Example from the training pickle file "telugu_pos_tag_data.pickle":
+Example from the training pickle file "total_data.pickle":
 
 [
 
