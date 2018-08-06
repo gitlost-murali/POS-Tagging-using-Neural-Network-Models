@@ -83,6 +83,7 @@ def create_word_char_pos_dicts(totaldata):
 START_TAG = "<START>"
 STOP_TAG = "<STOP>"
 
+total_data=load(open("total_data.pickle","rb"))
 create_word_char_pos_dicts(total_data)
 
 tag_to_ix[START_TAG]=len(tag_to_ix)
