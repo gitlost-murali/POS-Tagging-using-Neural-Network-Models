@@ -1,6 +1,6 @@
 # POS-Tagging-using-Neural-Network-Models
 Contains implementation of models like BiLSTM CRF, Hierarchical BiLSTM for POS Tagging.
-See "BiLSTM CRF explanation.md" for the explanation of "BiLSTM CRF".
+See "BiLSTM CRF explanation.md" for the explanation of "BiLSTM CRF"[a link](https://github.com/Murali81/POS-Tagging-using-Neural-Network-Models/blob/master/BiLSTM%20CRF%20explanation.md).
 
 Data in the "total_data.pickle" pickle file is expected to have the following format:
 
